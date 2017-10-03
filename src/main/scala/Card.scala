@@ -1,5 +1,7 @@
 trait Card {
+  val level: Int
+  val cost: Minerals
   def getPoints: Int
-  def purchase(money: Set): Boolean
-  def getCost: Set
+  def purchase(money: Minerals): Boolean
+  def getCost: Minerals
 }

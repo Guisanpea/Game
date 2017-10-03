@@ -1,4 +1,7 @@
 trait Player {
+  var deck : Hand
+  var resources : Minerals
+
   def getPoints: Int
-  def get
+  def getTotalResources: Minerals
 }
