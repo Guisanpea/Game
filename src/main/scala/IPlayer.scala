@@ -1,5 +1,5 @@
-trait Player {
-  var deck : Hand
+trait IPlayer {
+  var deck : IHand
   var resources : Minerals
 
   def getPoints: Int

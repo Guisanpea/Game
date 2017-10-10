@@ -4,4 +4,6 @@ case class Minerals (
   var emeralds: Int,
   var obsidians: Int,
   var tokens : Int
-)
+){
+  def getSumOfMinerals
+}
